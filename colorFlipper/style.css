@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Gilroy";
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background: #f0f0f0;
+}
+.nav {
+  height: 10%;
+  width: 100%;
+  background: rgb(216, 215, 215);
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+  align-items: center;
+}
+.nav p {
+  font-size: 1.5rem;
+  font: bold;
+}
+.screen{
+    height: 90%;
+    width: 100%;
+    text-align: center;
+    padding-top: 14rem;
+}
+.bg-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 39%;
+    margin-left: 26rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 1rem;
+    margin-bottom: 1.9rem;
+}
+
+.button{
+    padding: 0.7rem 2rem;
+}
+.span{
+    color: blue;
+}

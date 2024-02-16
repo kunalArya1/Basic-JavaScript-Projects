@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(196, 196, 196);
+  text-align: center;
+  padding: 20rem;
+}
+.main button {
+  padding: 0.4rem 2rem;
+  margin-top: 2rem;
+}
+.main h1 {
+  font-size: 3.5rem;
+}
